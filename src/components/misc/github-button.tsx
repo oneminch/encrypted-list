@@ -8,7 +8,7 @@ interface GitHubButtonProps {
 }
 
 const GitHubButton: React.FC<GitHubButtonProps> = ({ className }) => {
-  const repoUrl = "https://github.com/oneminch/EncryptedList";
+  const repoUrl = "https://github.com/oneminch/encrypted-list";
 
   return (
     <div className={`inline-block mx-auto ${className}`}>

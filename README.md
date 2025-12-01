@@ -6,5 +6,5 @@
   <br />
   <a href="https://encryptedlist.xyz">Website</a>
   ·
-  <a href="https://github.com/oneminch/encryptedlist">GitHub</a>
+  <a href="https://github.com/oneminch/encrypted-list">GitHub</a>
 </p>
