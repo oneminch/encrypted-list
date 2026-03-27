@@ -11,35 +11,35 @@
   },
   "dependencies": {
     "@fontsource/space-grotesk": "^5.2.10",
-    "@libsql/client": "^0.15.15",
+    "@libsql/client": "^0.17.2",
     "@uidotdev/usehooks": "^2.4.1",
-    "next": "^15.5.12",
+    "next": "^15.5.14",
     "next-themes": "^0.4.6",
     "nuqs": "^2.8.9",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "resend": "^6.9.3",
+    "resend": "^6.9.4",
     "swr": "^2.4.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.4",
-    "@eslint/js": "^9.39.3",
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^9.39.4",
     "@iconify-json/ph": "^1.2.2",
     "@iconify/react": "^5.2.1",
-    "@tailwindcss/postcss": "^4.2.1",
-    "@types/node": "^24.11.0",
-    "@types/react": "19.2.7",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^24.12.0",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "eslint": "^9.39.3",
-    "eslint-config-next": "^15.5.12",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^15.5.14",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.2.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3"
   },
   "pnpm": {
     "overrides": {
-      "@types/react": "19.2.7",
+      "@types/react": "19.2.14",
       "@types/react-dom": "19.2.3"
     },
     "onlyBuiltDependencies": [
