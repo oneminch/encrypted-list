@@ -1,0 +1,8 @@
+overrides:
+  '@types/react': 19.2.14
+  '@types/react-dom': 19.2.3
+  brace-expansion@<5.0.5: '>=5.0.5'
+allowBuilds:
+  '@tailwindcss/oxide': true
+  sharp: true
+  unrs-resolver: true
