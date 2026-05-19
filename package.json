@@ -13,12 +13,12 @@
     "@fontsource/space-grotesk": "^5.2.10",
     "@libsql/client": "^0.17.3",
     "@uidotdev/usehooks": "^2.4.1",
-    "next": "^15.5.15",
+    "next": "^15.5.18",
     "next-themes": "^0.4.6",
     "nuqs": "^2.8.9",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "resend": "^6.12.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "resend": "^6.12.3",
     "swr": "^2.4.1"
   },
   "devDependencies": {
@@ -26,15 +26,15 @@
     "@eslint/js": "^9.39.4",
     "@iconify-json/ph": "^1.2.2",
     "@iconify/react": "^5.2.1",
-    "@tailwindcss/postcss": "^4.2.4",
-    "@types/node": "^24.12.2",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^24.12.4",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^15.5.15",
+    "eslint-config-next": "^15.5.18",
     "eslint-plugin-unused-imports": "^4.4.1",
     "postcss": "^8.5.14",
-    "tailwindcss": "^4.2.4",
+    "tailwindcss": "^4.3.0",
     "typescript": "^5.9.3"
   }
 }
