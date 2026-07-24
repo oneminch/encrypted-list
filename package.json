@@ -28,7 +28,7 @@
     "@iconify/react": "^5.2.1",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^24.13.3",
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "^9.39.5",
     "eslint-config-next": "^15.5.21",
