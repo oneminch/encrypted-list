@@ -18,11 +18,11 @@ const SubmissionForm = dynamic(
 );
 
 const submissionRequirements = [
-  "Your product must be secure-by-design and protect user privacy by default.",
-  "Your product should use strong encryption for sensitive data (in transit and at rest where applicable).",
-  "You must provide a publicly accessible product URL that we can review.",
-  "You must provide enough product details so we can verify its security and privacy approach.",
-  "Products that are deceptive, unsafe, or malware-related are not eligible for listing."
+  "EncryptedList focuses on third-party apps that claim zero-knowledge or end-to-end encryption in at least part of the product.",
+  "Privacy-first design should be clear in the core experience, even when encrypted features are opt-in or limited to specific workflows.",
+  "A publicly accessible product URL is needed for review.",
+  "Submission details should make it clear where encryption is used and how it supports user privacy.",
+  "Apps that appear deceptive, unsafe, or malware-related are not listed."
 ];
 
 export const metadata: Metadata = {
@@ -67,8 +67,8 @@ const SubmitPage: React.FC = () => {
             Submission Requirements
           </h2>
           <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-300">
-            Please ensure your product meets these requirements before
-            submitting.
+            This helps keep listings aligned with apps like Bitwarden, Proton
+            Mail, and Signal.
           </p>
           <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-200">
             {submissionRequirements.map(requirement => (
