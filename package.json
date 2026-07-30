@@ -13,12 +13,12 @@
     "@fontsource/space-grotesk": "^5.3.0",
     "@libsql/client": "^0.17.4",
     "@uidotdev/usehooks": "^2.4.1",
-    "next": "^15.5.21",
+    "next": "^15.5.22",
     "next-themes": "^0.4.6",
-    "nuqs": "^2.9.1",
+    "nuqs": "^2.9.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "resend": "^6.18.0",
+    "resend": "^6.18.1",
     "swr": "^2.4.2"
   },
   "devDependencies": {
@@ -31,9 +31,9 @@
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^15.5.21",
+    "eslint-config-next": "^15.5.22",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "postcss": "^8.5.22",
+    "postcss": "^8.5.24",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3"
   }
