@@ -70,9 +70,7 @@ const SubmissionForm: React.FC = () => {
   return (
     <form
       onSubmit={handleFormSubmit}
-      className="flex flex-col gap-y-2 w-4/5 max-w-md text-sm">
-      <Grateful className="text-center pb-5" />
-
+      className="w-full flex flex-col gap-y-2 text-sm">
       <div className="flex flex-col gap-y-4">
         <label>
           <p>
