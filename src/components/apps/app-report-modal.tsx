@@ -84,7 +84,7 @@ const ReportApp: React.FC<ReportAppProps> = ({ appName }) => {
     <section className="min-w-xs">
       <ModalIcon icon="ph:flag-banner-duotone" />
 
-      <Grateful />
+      <Grateful className="mb-3 pb-3" />
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-y-2">
         <fieldset

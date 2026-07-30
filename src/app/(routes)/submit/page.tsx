@@ -18,11 +18,10 @@ const SubmissionForm = dynamic(
 );
 
 const submissionRequirements = [
-  "EncryptedList focuses on third-party apps that claim zero-knowledge or end-to-end encryption in at least part of the product.",
-  "Privacy-first design should be clear in the core experience, even when encrypted features are opt-in or limited to specific workflows.",
-  "A publicly accessible product URL is needed for review.",
-  "Submission details should make it clear where encryption is used and how it supports user privacy.",
-  "Apps that appear deceptive, unsafe, or malware-related are not listed."
+  "EncryptedList is a directory of software tools with zero-knowledge or end-to-end encryption as a core security feature.",
+  "Privacy-first design should be part of the core experience (even when encrypted features are opt-in or limited to a subset of the tool).",
+  "Submissions that don't fit under these guidelines may not be accepted.",
+  "Thank you for helping me make EncryptedList better."
 ];
 
 export const metadata: Metadata = {
@@ -62,22 +61,18 @@ const SubmitPage: React.FC = () => {
       <PageDivider />
 
       <section className="py-8 px-4 sm:px-6 mx-auto w-full sm:w-5/6 lg:w-4/5 max-w-5xl grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] gap-6 lg:gap-8 border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 rounded-lg">
-        <aside className="rounded-lg border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 p-5 sm:p-6 h-fit">
+        <aside className="w-11/12 lg:w-full max-w-md flex flex-col items-start justify-center mx-auto border-b lg:border-r lg:border-b-0 border-dashed border-zinc-200/50 dark:border-zinc-700/50 p-6 sm:p-7 h-full">
           <h2 className="text-lg font-medium text-zinc-900 dark:text-zinc-100">
-            Submission Requirements
+            Submission Guidelines
           </h2>
-          <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-300">
-            This helps keep listings aligned with apps like Bitwarden, Proton
-            Mail, and Signal.
-          </p>
-          <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-200">
+          <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-zinc-700 dark:text-zinc-200 marker:text-yellow-500 dark:marker:text-yellow-400">
             {submissionRequirements.map(requirement => (
               <li key={requirement}>{requirement}</li>
             ))}
           </ul>
         </aside>
 
-        <div className="flex items-center justify-center">
+        <div className="w-11/12 sm:w-full max-w-md p-6 sm:p-7 mx-auto flex items-center justify-center">
           <SubmissionForm />
         </div>
       </section>
