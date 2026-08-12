@@ -61,7 +61,7 @@ const SubmitPage: React.FC = () => {
       <PageDivider />
 
       <section className="py-8 px-4 sm:px-6 mx-auto w-full sm:w-5/6 lg:w-4/5 max-w-5xl grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] gap-6 lg:gap-8 border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 rounded-lg">
-        <aside className="w-11/12 lg:w-full max-w-md flex flex-col items-start justify-center mx-auto border-b lg:border-r lg:border-b-0 border-dashed border-zinc-200/50 dark:border-zinc-700/50 p-6 sm:p-7 h-full">
+        <aside className="w-11/12 lg:w-full max-w-md flex flex-col items-start justify-center lg:justify-start mx-auto border-b lg:border-r lg:border-b-0 border-dashed border-zinc-200/50 dark:border-zinc-700/50 p-6 sm:p-7 h-full">
           <h2 className="text-lg font-medium text-zinc-900 dark:text-zinc-100">
             Submission Guidelines
           </h2>
